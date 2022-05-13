@@ -23,10 +23,9 @@ def findMaxSum(arr, n):
         include = exclude + i
         exclude = new_excl
      
-    # Return max of include and exclude
     return max(exclude, include)
  
-# Driver code
+
 if __name__ == "__main__":
     arr = [5, 1, 1, 5]
     N = 6

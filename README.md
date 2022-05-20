@@ -59,3 +59,7 @@ This problem was asked by Amazon.
 Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters.
 
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
+## [problem 13](https://github.com/krishnagoud646/Daily-coding-problem/blob/main/problem13.py)
+This problem was asked by Facebook.
+
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.

@@ -113,3 +113,8 @@ Given a string of round, curly, and square open and closing brackets, return whe
 For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
+
+## [problem 19](https://github.com/krishnagoud646/Daily-coding-problem/blob/main/problem19.py)
+This problem was asked by Amazon.
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".

@@ -8,11 +8,8 @@ Given the string "([)]" or "((()", you should return false."""
 
 def balanced_Brackets(expr):
     stack = []
-
     for char in expr:
         if char in ["(", "{", "["]:
- 
-            # Push the element in the stack
             stack.append(char)
         else:
             if not stack:
@@ -33,10 +30,8 @@ def balanced_Brackets(expr):
         return False
     return True
  
- 
-# Driver Code
 if __name__ == "__main__":
-    expr = input("Enter the Brackets: ")     # {()}[]
+    expr = input("Enter the Brackets: ")     
 
     if balanced_Brackets(expr):
         print("Balanced")

@@ -4,7 +4,6 @@ implement a function rand7() that returns an integer from 1 to 7 (inclusive)."""
 import numpy as np
 
 def rand5():
-    # np.random.randint returns random integers from the “discrete uniform” distribution of the specified dtype in the “half-open” interval  [low, high)
     return np.random.randint(1, 6)
 
 def rand7():
